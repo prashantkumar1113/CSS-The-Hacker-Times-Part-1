@@ -38,6 +38,9 @@ img {
 nav {
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
+    background: #fff;
+    position: sticky;
+    top: 0;
 }
 
 nav li {
@@ -48,7 +51,8 @@ nav li {
     margin-left: -10px;
 }
 
-nav li a {
+/*nav li*/
+a {
     color: #777;
     text-decoration: none;
 }
@@ -81,3 +85,42 @@ nav li a {
 /* p {
     padding: 10px;
 } */
+footer {
+    border-top: 2px solid #eee;
+}
+
+footer section {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    top: 0;
+}
+footer section li {
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+}
+footer section div {
+    position: relative;
+    top: -110px;
+}
+
+footer section a:hover {
+    color: #dd3232;
+}
+
+form input {
+    border: none;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80;
+}
+
+form input[type="submit"] {
+    background: #dd3232;
+    color: #fff;
+    width: 80%;
+}
